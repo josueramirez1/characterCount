@@ -1,0 +1,34 @@
+body {
+  margin: 0 auto;
+  max-width: 40em;
+  width: 88%;
+  font-family: "Roboto Mono", monospace;
+}
+
+label {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  padding: 2rem;
+  border: 3px solid hsl(0, 0%, 30%);
+  border-radius: 11px;
+  background-color: #eee;
+  box-shadow: 10px 11px 5px -4px hsla(0, 0%, 20%);
+  height: 28rem;
+  background-color: #ffca55;
+}
+
+textarea {
+  min-height: 24em;
+  width: 100%;
+  border-radius: 11px;
+  border: 2px solid hsl(0, 0%, 30%);
+}
+
+.title {
+  font-family: "Honk", system-ui;
+  text-align: center;
+  font-size: 4.2rem;
+}
